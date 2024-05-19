@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikshya Bhusal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/476c1118c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                
+                <nav>
+                    <div class="logo">
+                        <h1><span>D</span>ikshya.</h1>
+                    </div>
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                    
+                        <li><a href="#">Contact us</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-txt">
+                    <p>Web Developer</p>
+                    <h1>Hi,It's me <span>Dikshya</span><br> Bhusal from Nepal</h1>
+                    <a href="images/Dikshya CV (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+            
+            </div>
+        </div>
+
+<!-----ABout--------->
+
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/FB_IMG_1652089630891.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi all I'm Dikshya,A passionate web developer,having
+                            an experience of building frontend of website 
+                            using HTML,CSS,REACT,JavaScript.
+                        </p>
+                        <div class="tab-titles">
+                            
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            
+                        </div>
+                        <div class="second">
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><Span>2023-Current</Span><br>React JS training</li>
+                                <li><Span>2022-2023</Span><br>Multimedia training at CSC Parsa</li>
+                                
+                            </ul>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!----skills---->
+
+        <div class="Skills">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skill-list">
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <h2>JavaScript</h2>
+                        <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web,
+                            alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior. 
+                            Web browsers have a dedicated JavaScript engine that executes the client code. 
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <h2>HTML</h2>
+                        <p>HTML is used for creating the foundation for your page. Whereas, CSS is used to create the layout
+                            of the page, color, fonts, and style. 
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h2>CSS </h2>
+                        <p>CSS is an essential front-end skill but can be challenging to master at times. If you are working on a 
+                            big project with an extensive codebase and scope, you might have to invest ample time writing repetitive
+                            code or fixing incorrect file structures.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                        <h2>REACT</h2>
+                        <p>React is the library for web and native user interfaces. Build user interfaces out of individual
+                            pieces called components written in JavaScript. 
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---Projects--->
+
+        <div class="Projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="project-list">
+                    <div class="box">
+                        <img src="images/car rental.png">
+                        <h2>Car Rental System Landing page</h2>
+                        
+                        
+                    
+                    </div>
+                    <div class="box">
+                        <img src="images/calculator.png">
+                        <h2>Calculator using HTML,CSS,JS</h2>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-------Contact----->
+
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>dikshyabhusal48@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9844225011</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/dikshya.bhusal.501/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/dikshya_bhusal_/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="www.linkedin.com/in/dikshya-bhusal-843759260"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Dikshya CV (1).pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Messaage"></textarea>
+                            <button type="Submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Dikshya.All Rights Reserved</p>
+            </div>
+        </div>
+
+        
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+</body>
+</html>
